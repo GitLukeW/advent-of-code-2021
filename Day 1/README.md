@@ -54,7 +54,7 @@ Instead, consider sums of a three-measurement sliding window. Again considering 
 199  A      
 200  A B    
 208  A B C  
-210    B C D
+  210  B C D
 200  E   C D
 207  E F   D
 240  E F G  
