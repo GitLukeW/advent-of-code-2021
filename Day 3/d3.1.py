@@ -1,15 +1,18 @@
 import sys
 from pathlib import Path
 
+
 def da_power(input):
     data = input.split()
-    one_count = 0
-    zero_list = []
-    for i in range(0, len(data)):
-        if i == "1":
-            one_count += 1
-    print(one_count)
-        
+    zeros = len(data[0])
+    ones = [0] * len(data[0])
+    print(data)
+    for i in data:
+        if i == 0:
+            zeros.append[i] += 1
+
+    print(zeros)
+
     
 
 
