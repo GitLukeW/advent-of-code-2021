@@ -5,23 +5,26 @@ from pathlib import Path
 def da_power(input):
     data = input.split()
     print(data)
-    zeros = []
-    ones = []
 
     for col in range(len(data[0])):
+        ones = []
+        zeros = []
         for row in range(len(data)):
-            print(data[row][col])
+            if data[row][col] == '1':
+                ones.append(1)
+            if data[row][col] == '0':
+                zeros.append(0)
+        print(ones)
+        print(zeros)
+    
             
-        
-
-
 
     
 
 # [‘11010’, ‘11110’][0][0]
 # ‘1’    
 
-
+#   print(data[row][col])
     
 
 if __name__ == "__main__":
