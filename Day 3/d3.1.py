@@ -4,29 +4,25 @@ from pathlib import Path
 
 def da_power(input):
     data = input.split()
-    zeros = len(data[0])
-    ones = [0] * len(data[0])
     print(data)
-    for i in data:
-        if i == 0:
-            zeros.append[i] += 1
+    zeros = []
+    ones = []
 
-    print(zeros)
+    for col in range(len(data[0])):
+        for row in range(len(data)):
+            print(data[row][col])
+            
+        
+
+
 
     
 
+# [‘11010’, ‘11110’][0][0]
+# ‘1’    
+
 
     
-
-
-    
-    
-    
-
-
-       
-
-
 
 if __name__ == "__main__":
     file = Path(sys.argv[1])
